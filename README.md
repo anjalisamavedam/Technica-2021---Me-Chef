@@ -1,0 +1,2 @@
+# Technica-2021---Me-Chef
+Me Chef is a hack Beatrice and I made for Technica 2021! It allows busy college students and other individuals a convenient method of retrieving delicious meals. With many preference categories included, individuals can select vegetarian, pescatarian, low calorie, and many more options to find optimal meal recipes. We hope to encourage healthy eating in our local community coupled with delicious recipes.
