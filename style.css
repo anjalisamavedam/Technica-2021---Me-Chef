@@ -1,0 +1,168 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+
+.backdrop{
+  background-color:#DCE2E3;
+}
+
+image{
+  max-width:100%;
+}
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #8A8CA7;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #F2E6E5;
+  text-align: center;
+  padding: 30px 16px 30px;
+  text-decoration: none;
+  font-family: 'Yuji Syuku', serif;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #787990;
+  color:#E9DEDF;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+/*button on backdrop*/
+.center{
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  
+}
+
+.btn{
+  background-color: #e3cecc;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Yuji Syuku', serif;
+}
+
+.btn:hover {
+  background-color:#EADEDD;
+}
+
+button{
+  background-color: #e3cecc;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Yuji Syuku', serif;
+}
+
+button:hover{
+  background-color:#EADEDD;
+
+}
+
+h1{
+  font-family: 'Yuji Syuku', serif;
+  size:40px;
+  text-align: center;
+  padding-bottom:10px;
+}
+
+h3{
+  font-family: 'Yuji Syuku', serif;
+  size:40px;
+  text-align: center;
+  padding-bottom:10px;
+}
+
+p{
+  font-family: 'Yuji Syuku', serif;
+  padding-bottom:10px;
+}
+
+.form{
+  border-radius:25px;
+  background-color: #e3e8e4;
+  height:auto;
+  padding-bottom:10px;
+}
+
+.outerForm{
+  background-color: #b3c1b6;
+  padding-top:40px;
+  padding:20px;
+  padding-bottom:40vh;
+}
+
+.dot{
+  height:10px;
+  width:10px;
+  background-color: #e3e8e4;
+  border-radius:50%;
+  display:inline-block;
+}
+
+table{
+  padding-left:20px;
+  width:100%;
+}
+
+td{
+  width:50%;
+  font-family: 'Yuji Syuku', serif;
+}
+
+.generate{
+  text-align:center;
+  justify-content:center;
+  align-items:center;
+  display: flex;
+}
+
+a{
+  text-decoration:none;
+  color:black;
+}
+
+.profile{
+  width:50px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.meChef{
+  padding-top:10px;
+  padding-right:5px;
+}
+
+.logo{
+  width:100px;
+}
+
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
